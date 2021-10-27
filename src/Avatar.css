@@ -1,0 +1,31 @@
+.avatar {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: left;
+  padding: 10px;
+}
+.avatar img {
+  border-radius: 50%;
+  height: 10em;
+  width: 10em;
+}
+.social img {
+  height: 2em;
+  width: 2em;
+  display: inline;
+  
+}
+.social {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.social a {
+  width: 80%;
+  display: flex;
+  grid-template-columns: 1fr;
+ justify-content: center;
+ 
+}

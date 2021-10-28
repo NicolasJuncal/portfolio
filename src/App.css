@@ -1,5 +1,16 @@
+
+ .font-link {
+  font-family: 'Roboto';
+}
+
 * {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif, 'Times New Roman', Times, serif;
+}
+
+body{
+  background-color: rgb(33, 150, 243);
+  
 }
 
 .App {
@@ -10,10 +21,56 @@
 }
 
 .page-wrapper {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   width: 100%;
   margin: 0 auto;
-  justify-content:space-evenly;
+  justify-content:space-evenly; */
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 2rem;
   
+}
+.quarter {
+  flex-direction: column;
+  text-align: center;
+}
+
+.three-quarter{
+  text-align: left;
+}
+.social-wrapper {
+  width: 30%;
+  margin: 0 auto;
+}
+.content img {
+  width: 23rem
+}
+
+
+@media all and (max-device-width: 500px){
+  .page-wrapper {
+    grid-template-columns: 1fr;
+  }
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  };
+  nav .fill {
+    padding: 0;
+    
+  }
+  .quarter {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .content {
+    width: 20rem;
+    margin: 0 auto;
+  }
+  .projects img {
+    display: block;
+    width: 100%;
+
+  }
 }

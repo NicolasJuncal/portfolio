@@ -1,5 +1,8 @@
 import React from 'react';
 import axios from 'axios';
+import Button from '@mui/material/Button';
+import TextField from '@mui/material/TextField';
+import './Contact.css';
 
 class Contact extends React.Component {
 
@@ -32,23 +35,40 @@ class Contact extends React.Component {
 
   render() {
     return(
-      <div className="App">
-        <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
-          <div className="form-group">
-              <label htmlFor="name">Name</label>
-              <input type="text" className="form-control" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
-          </div>
-          <div className="form-group">
-              <label htmlFor="exampleInputEmail1">Email address</label>
-              <input type="email" className="form-control" id="email" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
-          </div>
-          <div className="form-group">
-              <label htmlFor="message">Message</label>
-              <textarea className="form-control" rows="5" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
-          </div>
-          <button type="submit" className="btn btn-primary">Submit</button>
-        </form>
+           
+      <div className="contact-div fade-in-left">
+            <div className="wrap-contact">
+              <span className="reach-me">Leave me a message.</span>
+              <form className="form-div" id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+                <div className="form-group">
+                
+                    <TextField id="outlined-basic" label="Name" variant="outlined" value={this.state.name} onChange={this.onNameChange.bind(this)}/>
+                  
+                </div>
+                <div className="form-group">
+                  
+                    <TextField id="outlined-basic" label="E-mail" variant="outlined" value={this.state.email} onChange={this.onEmailChange.bind(this)}/>
+                    
+                </div>
+                <div className="form-group">
+
+                  <TextField
+                  id="outlined-multiline-static"
+                  label="Message"
+                  multiline
+                  rows={4}
+                  value={this.state.message} onChange={this.onMessageChange.bind(this)}/>
+
+                </div>
+
+                <div className="btn-group">
+                  <Button type="submit" variant="contained">Submit</Button>
+                </div>
+
+              </form>
+        </div>
       </div>
+      
     );
   }
 

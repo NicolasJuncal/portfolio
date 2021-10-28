@@ -2,7 +2,6 @@ import Avatar from './Avatar.js'
 import './App.css';
 import NavMenu from './NavMenu.js'
 import Home from './Home.js'
-import Download from './Download.js'
 import Contact from './Contact.js'
 import Projects from './Projects.js'
 import { Switch, Route, Link } from 'react-router-dom'
@@ -19,7 +18,6 @@ function App() {
         <Route path='/projects'>
           <Projects></Projects>
         </Route>
-  
         <Route path='/'>
           <Home></Home>
         </Route>

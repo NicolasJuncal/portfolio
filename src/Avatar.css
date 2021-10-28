@@ -1,20 +1,45 @@
 .avatar {
-  display: flex;
-  flex-direction: column;
   text-align: center;
   justify-content: left;
   padding: 10px;
+  color: rgb(0, 0, 0);
+  border: solid 0.2rem rgb(255, 255, 255);
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+
+}
+.three-quarter{
+  border: solid 0.2rem rgb(255, 255, 255);
+  height: 100%;
+  border-left: none;
+  
+}
+.page-wrapper {
+  border: solid 0.2rem rgb(255, 255, 255);
+  
 }
 .avatar img {
   border-radius: 50%;
-  height: 10em;
-  width: 10em;
+  height: 10rem;
+  width: 10rem;
+  border: rgb(255, 255, 255) solid 0.3rem;
+
 }
 .social img {
   height: 2em;
   width: 2em;
   display: inline;
-  
+
+}
+
+.my-title:hover {
+  border-color: rgb(33, 150, 243)
+} 
+.avatar img:hover {
+  border: rgb(33, 150, 243) solid 0.3rem;
+}
+.social img:hover {
+  border: rgb(33, 150, 243) solid 0.3rem;
 }
 .social {
   width: 100%;
@@ -26,6 +51,18 @@
   width: 80%;
   display: flex;
   grid-template-columns: 1fr;
- justify-content: center;
+  justify-content: center;
  
 }
+.about {
+  text-align: center;
+
+}
+.my-title {
+  border: rgb(255, 253, 253) solid 0.2rem;
+  border-radius: 1.4em;
+  padding: 0.2rem;
+  color: rgb(0, 0, 0);
+
+}
+

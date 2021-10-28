@@ -39,7 +39,7 @@ export default function Example() {
                 <div className="skills">
                   <p><img src="/js.png" alt="" />JavaScript | <img src="/react.png" alt="" />React  </p>
                   <p><img src="/ruby.png" alt="" />Ruby | Ruby on Rails | Sinatra</p>
-                  <p><img src="/node.png" alt="" />NodeNode.js | Express</p>
+                  <p><img src="/node.png" alt="" />Node.js | Express</p>
                   <p><img src="/html.png" alt="" />HTML5</p>
                   <p><img src="/css.png" alt="" />CSS3</p>
                   <p><img src="/git.png" alt="" />GitHub</p>

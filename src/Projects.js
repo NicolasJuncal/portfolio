@@ -27,7 +27,9 @@ return (
       >
         <h3 className="vertical-timeline-element-title">{arrayTitles[idx]}</h3>
         <h4 className="vertical-timeline-element-subtitle">{`Project #${idx + 1}`}</h4>
-        <img className="vertical-timeline-element-title" src={project} alt="" />
+        <div className="project-gif">
+          <img className="vertical-timeline-element-title" src={project} alt="" />
+        </div>
         <div className="project-desc">
           <p>
             {projectDescription[idx]}

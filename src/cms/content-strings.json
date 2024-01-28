@@ -74,16 +74,16 @@
         {
           "role": "Software Engineer",
           "company": "Lexicon, an Endava company",
-          "startDate": "Mar 2023",
-          "endDate": "Present",
+          "startDate": "Nov 2021",
+          "endDate": "Jul 2023",
           "location": "Sydney, New South Wales, Australia",
           "description": "Working as a full-time software engineer, focusing on diverse aspects of software development."
         },
         {
           "role": "Associate Software Engineer",
           "company": "General Assembly Australia",
-          "startDate": "Nov 2021",
-          "endDate": "Mar 2023",
+          "startDate": "Aug 2021",
+          "endDate": "Nov 2021",
           "location": "Sydney, New South Wales, Australia",
           "description": "Developing foundational skills in software engineering, contributing to various projects."
         },
@@ -92,15 +92,15 @@
           "company": "Berendsen Fluid Power Australia",
           "startDate": "May 2019",
           "endDate": "Aug 2021",
-          "location": "Wetherill Park, New South Wales, Australia",
-          "description": "Coordinated the cylinder repair team, managed day-to-day tasks, projects, and workshop planning for high-quality services in hydraulic projects, refurbishment, and repairs."
+          "location": "Sydney, New South Wales, Australia",
+          "description": "Coordinated day-to-day tasks, projects, and workshop planning for high-quality services in hydraulic projects, implemented RunMyProcess ERP from Fujitsu"
         },
         {
           "role": "Business Manager",
           "company": "BOLD International",
           "startDate": "Sep 2017",
           "endDate": "Jan 2018",
-          "location": "São Paulo e Região, Brasil",
+          "location": "Sao Paulo, Brazil and Porto, Portugal",
           "description": "Served as a sales consultant for IT solutions, assisting businesses to find optimal IT solutions, managing customer portfolios, and overseeing projects in outsourcing, software factory, IoT, and digital marketing."
         },
         {
@@ -108,7 +108,7 @@
           "company": "Itaú",
           "startDate": "May 2017",
           "endDate": "Sep 2017",
-          "location": "São Paulo e Região, Brasil",
+          "location": "Sao Paulo, Brazil",
           "description": "Worked as a wealth advisor, managing retirement plans, investment funds, and insurance strategies for high net-worth individuals."
         },
         {
@@ -116,16 +116,8 @@
           "company": "HSBC",
           "startDate": "Jul 2014",
           "endDate": "Jun 2016",
-          "location": "São Paulo Area, Brazil",
+          "location": "Sao Paulo, Brazil",
           "description": "Focused on sales of bank products and services, advising customers on investment funds and savings, and managing private retirement plans."
-        },
-        {
-          "role": "GCX Operation Consultant",
-          "company": "HSBC",
-          "startDate": "Oct 2011",
-          "endDate": "Jul 2014",
-          "location": "São Paulo Area, Brazil",
-          "description": "Managed financial operations, payments, money exchange, and auditing of treasury controls."
         }
       ]
     },

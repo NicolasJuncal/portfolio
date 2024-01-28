@@ -1,0 +1,138 @@
+{
+  "sections": [
+    {
+      "id": "a",
+      "title": "About me",
+      "content": "I am a full stack software engineer with a background in business and finance advisory. My experience includes working in software engineering, business management, and as a workshop coordinator. I'm known for my teamwork, ability to share experiences, and my commitment to achieving personal and organisational goals."
+    },
+    {
+      "id": "b",
+      "title": "Professional Skills",
+      "skills": [
+        {
+          "name": "Typescript"
+        },
+        {
+          "name": "JavaScript"
+        },
+        {
+          "name": "Python"
+        },
+        {
+          "name": "NestJS"
+        },
+        {
+          "name": "Express/Node.js"
+        },
+        {
+          "name": "ReactTS/JS"
+        },
+        {
+          "name": "CSS/HTML"
+        },
+        {
+          "name": "SQL/MySQL"
+        },
+        {
+          "name": "GraphQL"
+        },
+        {
+          "name": "Playwright"
+        },
+        {
+          "name": "Github"
+        },
+        {
+          "name": "Jenkins"
+        },
+        {
+          "name": "AWS"
+        },
+        {
+          "name": "Dynamodb"
+        },
+        {
+          "name": "New Relic"
+        },
+        {
+          "name": "Dynamodb"
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "title": "Experience",
+      "experiences": [
+        {
+          "role": "Software Engineer",
+          "company": "Endava",
+          "startDate": "Jul 2023",
+          "endDate": "Present",
+          "location": "Australia",
+          "description": "Engaged in full-time software engineering tasks, contributing to various projects in a hybrid work setting."
+        },
+        {
+          "role": "Software Engineer",
+          "company": "Lexicon, an Endava company",
+          "startDate": "Mar 2023",
+          "endDate": "Present",
+          "location": "Sydney, New South Wales, Australia",
+          "description": "Working as a full-time software engineer, focusing on diverse aspects of software development."
+        },
+        {
+          "role": "Associate Software Engineer",
+          "company": "General Assembly Australia",
+          "startDate": "Nov 2021",
+          "endDate": "Mar 2023",
+          "location": "Sydney, New South Wales, Australia",
+          "description": "Developing foundational skills in software engineering, contributing to various projects."
+        },
+        {
+          "role": "Workshop Coordinator",
+          "company": "Berendsen Fluid Power Australia",
+          "startDate": "May 2019",
+          "endDate": "Aug 2021",
+          "location": "Wetherill Park, New South Wales, Australia",
+          "description": "Coordinated the cylinder repair team, managed day-to-day tasks, projects, and workshop planning for high-quality services in hydraulic projects, refurbishment, and repairs."
+        },
+        {
+          "role": "Business Manager",
+          "company": "BOLD International",
+          "startDate": "Sep 2017",
+          "endDate": "Jan 2018",
+          "location": "São Paulo e Região, Brasil",
+          "description": "Served as a sales consultant for IT solutions, assisting businesses to find optimal IT solutions, managing customer portfolios, and overseeing projects in outsourcing, software factory, IoT, and digital marketing."
+        },
+        {
+          "role": "Personnalité Digital Manager",
+          "company": "Itaú",
+          "startDate": "May 2017",
+          "endDate": "Sep 2017",
+          "location": "São Paulo e Região, Brasil",
+          "description": "Worked as a wealth advisor, managing retirement plans, investment funds, and insurance strategies for high net-worth individuals."
+        },
+        {
+          "role": "Business Consultant",
+          "company": "HSBC",
+          "startDate": "Jul 2014",
+          "endDate": "Jun 2016",
+          "location": "São Paulo Area, Brazil",
+          "description": "Focused on sales of bank products and services, advising customers on investment funds and savings, and managing private retirement plans."
+        },
+        {
+          "role": "GCX Operation Consultant",
+          "company": "HSBC",
+          "startDate": "Oct 2011",
+          "endDate": "Jul 2014",
+          "location": "São Paulo Area, Brazil",
+          "description": "Managed financial operations, payments, money exchange, and auditing of treasury controls."
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "title": "Education",
+      "content": "I hold a Software Engineering Immersive certification from General Assembly, a Master of Business Administration from Kaplan, and a Bachelor of Business Administration with IT from FIAP."
+    }
+  ]
+}

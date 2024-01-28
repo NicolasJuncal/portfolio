@@ -1,5 +1,5 @@
 import Avatar from './Avatar.js'
-import './App.css';
+import './main.css';
 import NavMenu from './NavMenu.js'
 import Home from './Home.js'
 import Contact from './Contact.js'

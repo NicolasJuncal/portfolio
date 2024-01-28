@@ -1,0 +1,342 @@
+/* Reset styles */
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif, 'Times New Roman', Times, serif;
+}
+
+/* Body styles */
+body {
+  background-color: #E4E4DE; /* Ethereal Ivory */
+  font-family: 'Roboto', sans-serif;
+}
+
+/* App container styles */
+.App {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  color: #1B1B1B; /* Timeless Noir */
+}
+
+/* Page wrapper styles */
+.page-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 2rem;
+  background-color: #C4C5BA; /* Sophisticated Sage */
+  border: 2px solid #E4E4DE; /* Ethereal Ivory */
+}
+
+/* Quarter section styles */
+.quarter {
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Three-quarter section styles */
+.three-quarter {
+  text-align: center;
+  border-left: none;
+}
+
+/* Social wrapper styles */
+.social-wrapper {
+  width: 30%;
+  margin: 0 auto;
+}
+
+/* Content image styles */
+.content img {
+  width: 19rem;
+}
+
+/* Avatar styles */
+.avatar {
+  text-align: center;
+  justify-content: left;
+  padding: 10px;
+  color: #1B1B1B; /* Timeless Noir */
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.panel {
+  padding: 2rem;
+  text-align: center;
+  transition: linear 0.3s;
+}
+
+.avatar img {
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  border: 3px solid #595f39; /* Muted Moss */
+}
+
+/* Social icons styles */
+.social img {
+  height: 2em;
+  width: 2em;
+  display: inline;
+}
+
+/* Hover styles */
+.social img:hover,
+.avatar img:hover {
+  border: 3px solid #E4E4DE; /* Ethereal Ivory */
+}
+
+/* Social links container styles */
+.social {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Social link styles */
+.social a {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Title styles */
+.my-title {
+  border: 2px solid #E4E4DE; /* Ethereal Ivory */
+  border-radius: 1.4em;
+  padding: 0.2rem;
+  color: #1B1B1B; /* Timeless Noir */
+}
+
+/* Hover effect on title */
+.my-title:hover {
+  border-color: #E4E4DE; /* Terra Cotta */
+}
+
+/* Home div styles */
+.home-div {
+  background: #E4E4DE; /* Ethereal Ivory */
+  width: 50rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  transition: linear 0.3s;
+  height: 60rem;
+  margin-top: 5px;
+}
+
+.button {
+  background-color: #E4E4DE; /* Terra Cotta */
+  transition: linear 0.3s;
+  padding: 1rem;
+
+}
+.heading:hover,
+.button:hover {
+  cursor: pointer;
+  background-color: #595f39; /* Muted Moss */
+  transition: linear 0.3s;
+}
+
+.title:hover {
+  color: rgb(250, 253, 255);
+  font-weight: bolder;
+  transition: linear 0.3s;
+}
+.heading:focus,
+.button:focus {
+  color:#595f39; /* Muted Moss */
+  font-weight: bolder;
+  transition: linear 0.3s;
+}
+
+/* Responsive styles for mobile devices */
+@media all and (max-device-width: 500px) {
+  .page-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  nav .fill {
+    padding: 0;
+  }
+  .quarter {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .content {
+    width: 20rem;
+    margin: 0 auto;
+  }
+  .projects img {
+    display: block;
+    width: 100%;
+  }
+}
+
+/* Navigation styles */
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  padding: 0.5rem;
+  padding-top: none;
+  padding-bottom: none;
+}
+
+.fill {
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: 1rem;
+  letter-spacing: 1px;
+  padding: 13px 50px 13px;
+  outline: 0;
+  border: 2px solid #E4E4DE; /* Ethereal Ivory */
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.fill::after {
+  content: "";
+  background-color: #595f39; /* Muted Moss */
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.fill:hover::after {
+  top: 0px;
+  left: 0px;
+  background-color: #595f39; /* Muted Moss */
+}
+
+.fill img {
+  width: 1rem;
+  height: 1rem;
+}
+.fill a:focus{
+  color: #E4E4DE; /* Terra Cotta */
+  transition: linear 0.1s;
+  font-size: 1.1rem;
+}
+
+
+
+.fill:focus {
+  color: #E4E4DE; /* Terra Cotta */
+  background-color: #595f39; /* Muted Moss */
+  transition: linear 0.1s;
+  font-size: 1.1rem;
+}
+
+.fill a {
+  text-decoration: none;
+  color: #E4E4DE;
+  background-color: none;
+}
+/* Source code link styles */
+.souceCode {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.heading {
+  font-size: 1rem;
+  border: 0.1rem solid white;
+  font-family: "Roboto";
+  text-align: center;
+  transition: linear 0.3s;
+  margin: 1rem;
+}
+
+.souceCode:hover {
+  color: #E11963; /* Radical Red */
+}
+
+/* Project GIF image styles */
+.project-gif img {
+  width: 100%;
+  text-align: center;
+}
+
+@media all and (max-device-width: 500px) {
+  .page-wrapper {
+    grid-template-columns: 1fr;
+    border: none;
+    width: 100%;
+    padding: 0;
+  }
+  .body {
+    width: 100%;
+  }
+  .avatar {
+    width: 100%;
+    padding: 0;
+  }
+  .hobbies img {
+    width: 100%;
+    height: 100%;
+  }
+  .fusca {
+    width: 100%;
+    height: 100%;
+  }
+  
+  nav .fill {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .reach-me {
+    color: #FAFDFF; /* Iceberg */
+    font-weight: bolder;
+    background-color: rgba(26, 91, 183, 0.9);
+    text-shadow: 5px 2px #2E4DB1; /* Royal Blue */
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+  }
+  .quarter {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .three-quarter {
+    margin: 0 auto;
+    width: 100%;
+    border: none;
+  }
+  .content {
+    margin: 0 auto;
+  }
+  .projects img {
+    display: block;
+    width: 100%;
+  }
+  .home-div {
+    width: 100%;
+  }
+  .project-gif img {
+    width: 100%;
+  }
+
+  .accordion {
+    padding: 2rem;
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 3rem;
+  }
+  .App {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

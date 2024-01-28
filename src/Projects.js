@@ -2,7 +2,7 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import test from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import './Project.css';
+import './main.css';
 let imgArray = ["tic-tac-toe.gif","wineclublovers.gif", "project3.gif", "chatsupp.gif"]
 let color = [{ background: 'rgb(200, 216, 255)', color: '#fff' },{ background: 'rgb(233, 30, 99)', color: '#fff' }]
 let arrayTitles = ["Tic-Tac-Toe","WineClubLovers", "Blackbird","ChatsUpp"]

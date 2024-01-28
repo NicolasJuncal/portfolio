@@ -4,7 +4,7 @@ export default function Avatar() {
 return (
 <div 
   className="avatar">
-  <img src="NicolasJuncal.jpeg" alt="Nicolas"></img>
+  <img src="NicolasJuncal.png" alt="Nicolas"></img>
   
   <h3 className="my-name">Nicolas Juncal</h3>
   <h5 className="my-title">Software Engineer</h5>

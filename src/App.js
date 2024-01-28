@@ -4,7 +4,7 @@ import NavMenu from './NavMenu.js'
 import Home from './Home.js'
 import Contact from './Contact.js'
 import Projects from './Projects.js'
-import { Switch, Route, Link } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
 function App() {
   return (
     <div className="App">

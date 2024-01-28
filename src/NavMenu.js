@@ -26,18 +26,25 @@ color: black;
 const EmojiContainer = styled.span`
   font-size: 1rem;
 `;
+const StyledAnchor = styled(StyledLink).attrs({
+  as: 'a',
+  target: '_blank', // to open in a new tab
+  rel: 'noopener noreferrer' // for security reasons
+})``;
 export default function Nav() {
   return (
     <nav>
-      <StyledLink to="/">Home</StyledLink>
-      <StyledLink to="/projects">Projects</StyledLink>
-      <StyledLink to="/Nicolas_Juncal_CV.pdf" download>
-        Resume 
+    <StyledLink to="/">Home</StyledLink>
+    <StyledLink to="/projects">Projects</StyledLink>
+    <StyledAnchor 
+        href="https://drive.google.com/uc?export=download&id=1twF4-AwRXvVyTOqVCWJEV9GbGBIxEvTA" 
+        download
+      >
+        Resume
         <EmojiContainer>
-        <span role="img" aria-label="Download"> 📂</span>
-      </EmojiContainer>
-
-      </StyledLink>
-    </nav>
+          <span role="img" aria-label="Download"> 📂</span>
+        </EmojiContainer>
+      </StyledAnchor>
+  </nav>
   );
 }
